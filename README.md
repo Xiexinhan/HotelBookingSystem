@@ -1,6 +1,6 @@
 # HotelBookingSystem
 
-HotelBookingSystem  Flask  API 專案，提供訂單管理功能。簡單對訂單的創建和驗證逻辑，支持訂單的貨幣轉換以及名稱字母大小寫驗證。
+HotelBookingSystem  Flask  API 專案，提供訂單管理功能。簡單對訂單的創建和驗證邏輯，支持訂單的貨幣轉換以及名稱字母大小寫驗證。
 
 
 ## 專案結構
@@ -14,7 +14,7 @@ HotelBookingSystem/
 │ ├── schemas/ # 驗證請求格式
 │ ├── services/ # 業務邏輯
 │ ├── init.py # Flask初始化
-├── test/ # 單元测试
+├── test/ # 單元測試
 ├── .gitignore # 
 ├── app.py # 入口
 ├── Dockerfile # Docker配置文件
