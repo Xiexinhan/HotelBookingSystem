@@ -21,12 +21,17 @@ HotelBookingSystem/
 ├── requirements.txt # 套件依賴
 └── README.md
 ```
-## 安装与运行
+## 運行
 ```
 git clone <project>
 cd HotelBookingSystem
 docker build -t hotel-booking-system .
 docker run -p 5000:5000 hotel-booking-system
+```
+## 單元測試
+```
+docker exec -it "docker-id" bash  //進入docker 容器
+python -m unittest discover -s test
 ```
 
 題目一:
