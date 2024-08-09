@@ -22,12 +22,12 @@ HotelBookingSystem/
 └── README.md
 ```
 ## 安装与运行
-
+```
 git clone <project>
 cd HotelBookingSystem
 docker build -t hotel-booking-system .
 docker run -p 5000:5000 hotel-booking-system
-
+```
 
 題目一:
 ```
