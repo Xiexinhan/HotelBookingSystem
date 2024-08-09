@@ -5,6 +5,7 @@ HotelBookingSystem  Flask  API 專案，提供訂單管理功能。簡單對訂�
 
 ## 项目结构
 
+```
 HotelBookingSystem/
 ├── app/
 │ ├── controllers/ # 控制器，請求邏輯控制
@@ -19,7 +20,7 @@ HotelBookingSystem/
 ├── Dockerfile # Docker配置文件
 ├── requirements.txt # 套件依賴
 └── README.md
-
+```
 ## 安装与运行
 
 git clone <project>
@@ -29,6 +30,7 @@ docker run -p 5000:5000 hotel-booking-system
 
 
 題目一:
+```
 SELECT 
    orders.bnb_id,
    bnbs.name AS bnb_name,
@@ -46,11 +48,14 @@ GROUP BY
 ORDER BY 
    may_amount DESC
 LIMIT 10;
-
+```
 題目二:
-先查看執行速度慢的原因,先判斷 搜尋指令有無多餘的搜尋,如果已經是最佳,則對流程上優化,將資料庫做讀寫分離降低負擔,將常搜尋的欄位加上普通索引,提高搜尋速度
+```
+先查看執行速度慢的原因,先判斷 搜尋指令有無多餘的搜尋,如果已經是最佳
+則對流程上優化,將資料庫做讀寫分離降低負擔,將常搜尋的欄位加上普通索引,提高搜尋速度
 最後真的因為資料量太大而導致,會考慮分表儲存
 1.資料庫讀寫分離 
 2.正規化
 3.硬體資源升級
 4.分表(最後的選擇)
+```
